@@ -12,5 +12,5 @@ void kernel_early(void)
 
 void kernel_main(void)
 {
-	printf("Hello, kernel Tuga!\nNew Line Test!\n\tTab Test!");
+	printf("Hello, kernel Tuga!\nNew Line Test!\tTab Test!");
 }

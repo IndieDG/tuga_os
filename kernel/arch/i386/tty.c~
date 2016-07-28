@@ -48,7 +48,7 @@ void terminal_putchar(char c)
 	}
 	/*\t support*/
 	if(c == '\t') {
-		terminal_column += TAB_SIZE - 2; // -2 because of bellow ++terminal_column and space char
+		terminal_column += TAB_SIZE - 1; // -1 because of bellow ++terminal_column
 		c = ' ';									//clear char so \t is not printed
 	}
 	
